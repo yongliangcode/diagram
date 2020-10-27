@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-27T09:06:25.911Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="wKBpuCk3Rh-cnE4vrW_d" version="13.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-27T09:08:10.061Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="YFcqDztZY2-3UCp0Pi3k" version="13.8.3" type="github">
   <diagram id="cCxUT35h7-rThbaq3js5" name="Page-1">
     <mxGraphModel dx="1666" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="80" y="230" width="260" height="150" as="geometry" />
         </mxCell>
         <mxCell id="-M8HAZrCA3dmwM6E_LmJ-2" value="zookeeper1" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="290" width="90" height="55" as="geometry" />
+          <mxGeometry x="110" y="290" width="90" height="55" as="geometry" />
         </mxCell>
         <mxCell id="-M8HAZrCA3dmwM6E_LmJ-3" value="zookeeper2" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="290" width="90" height="55" as="geometry" />
@@ -20,7 +20,7 @@
           <mxGeometry x="370" y="230" width="260" height="150" as="geometry" />
         </mxCell>
         <mxCell id="-M8HAZrCA3dmwM6E_LmJ-6" value="zookeeper3" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="290" width="90" height="55" as="geometry" />
+          <mxGeometry x="410" y="290" width="90" height="55" as="geometry" />
         </mxCell>
         <mxCell id="-M8HAZrCA3dmwM6E_LmJ-7" value="zookeeper4" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="290" width="90" height="55" as="geometry" />
@@ -32,13 +32,13 @@
           <mxGeometry x="655" y="230" width="260" height="150" as="geometry" />
         </mxCell>
         <mxCell id="-M8HAZrCA3dmwM6E_LmJ-11" value="zookeeper5" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="290" width="90" height="55" as="geometry" />
+          <mxGeometry x="740" y="280" width="90" height="55" as="geometry" />
         </mxCell>
         <mxCell id="-M8HAZrCA3dmwM6E_LmJ-12" value="腾讯云" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="765" y="250" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="-M8HAZrCA3dmwM6E_LmJ-13" value="zookeeper集群部署" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="100" width="120" height="60" as="geometry" />
+        <mxCell id="-M8HAZrCA3dmwM6E_LmJ-13" value="zookeeper集群跨云部署" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="110" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
