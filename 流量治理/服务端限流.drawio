@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net" modified="2021-01-08T10:20:31.408Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="FFiZvZbDFQ3y_4renVMx" version="13.11.0" type="github">
+  <diagram id="12nK50byTR9gr9GhN85a" name="Page-1">
+    <mxGraphModel dx="1187" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uRCW_eUn2eEL0gXrxuSR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uRCW_eUn2eEL0gXrxuSR-1" target="uRCW_eUn2eEL0gXrxuSR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uRCW_eUn2eEL0gXrxuSR-1" value="服务A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uRCW_eUn2eEL0gXrxuSR-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uRCW_eUn2eEL0gXrxuSR-2" target="uRCW_eUn2eEL0gXrxuSR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uRCW_eUn2eEL0gXrxuSR-2" value="服务B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uRCW_eUn2eEL0gXrxuSR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uRCW_eUn2eEL0gXrxuSR-3" target="uRCW_eUn2eEL0gXrxuSR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uRCW_eUn2eEL0gXrxuSR-3" value="服务C" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uRCW_eUn2eEL0gXrxuSR-4" value="服务D" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="400" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uRCW_eUn2eEL0gXrxuSR-9" value="服务D过载调用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="160" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

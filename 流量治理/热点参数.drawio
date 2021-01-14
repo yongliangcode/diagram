@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" modified="2021-01-10T01:20:46.216Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="VMKZSa11gD9tg2PHG7eh" version="14.1.8" type="github">
+  <diagram id="fjBa6qj8HmqHVkQ2N0K5" name="Page-1">
+    <mxGraphModel dx="946" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EI2_1pOdE0jmda4SJ59P-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFCC;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EI2_1pOdE0jmda4SJ59P-2" value="热点商品流量" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EI2_1pOdE0jmda4SJ59P-4" value="其他商品流量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="220" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EI2_1pOdE0jmda4SJ59P-5" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="189.5" as="sourcePoint" />
+            <mxPoint x="310" y="189.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EI2_1pOdE0jmda4SJ59P-6" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="EI2_1pOdE0jmda4SJ59P-5">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EI2_1pOdE0jmda4SJ59P-7" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="219" as="sourcePoint" />
+            <mxPoint x="310" y="219" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EI2_1pOdE0jmda4SJ59P-8" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="EI2_1pOdE0jmda4SJ59P-7">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EI2_1pOdE0jmda4SJ59P-10" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="189.5" as="sourcePoint" />
+            <mxPoint x="640" y="189.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EI2_1pOdE0jmda4SJ59P-11" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="EI2_1pOdE0jmda4SJ59P-10">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EI2_1pOdE0jmda4SJ59P-12" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="219" as="sourcePoint" />
+            <mxPoint x="640" y="219" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EI2_1pOdE0jmda4SJ59P-13" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="EI2_1pOdE0jmda4SJ59P-12">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EI2_1pOdE0jmda4SJ59P-15" value="商品下单流量入口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="160" width="100" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="EI2_1pOdE0jmda4SJ59P-16" value="商品下单流量出口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="160" width="100" height="10" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
