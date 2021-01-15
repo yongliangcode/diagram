@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2021-01-15T03:06:50.741Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" version="14.1.9" etag="gKiDIFGaFKw5LB0D5z13" type="github"><diagram id="y1nGtjxwmCvx8Flj7t1E">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-15T10:57:57.989Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="UGkKuiKbUmjRI7JhkA_4" version="14.1.9" type="github">
+  <diagram id="y1nGtjxwmCvx8Flj7t1E" name="Page-1">
+    <mxGraphModel dx="946" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="W7lyHRZMpHHucIGi9bC2-6" value="«interface»&lt;br&gt;&lt;b&gt;​ByteBufAllocator&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="60" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W7lyHRZMpHHucIGi9bC2-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;dashed=1;endArrow=block;endFill=0;" edge="1" parent="1" source="W7lyHRZMpHHucIGi9bC2-11" target="W7lyHRZMpHHucIGi9bC2-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7lyHRZMpHHucIGi9bC2-11" value="«class»&lt;br&gt;&lt;b&gt;​AbstractByteBufAllocator&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="160" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W7lyHRZMpHHucIGi9bC2-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;curved=1;" edge="1" parent="1" source="W7lyHRZMpHHucIGi9bC2-12" target="W7lyHRZMpHHucIGi9bC2-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7lyHRZMpHHucIGi9bC2-12" value="«class»&lt;br&gt;&lt;b&gt;​UnpooledByteBufAllocator&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="280" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W7lyHRZMpHHucIGi9bC2-16" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="W7lyHRZMpHHucIGi9bC2-15" target="W7lyHRZMpHHucIGi9bC2-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7lyHRZMpHHucIGi9bC2-15" value="«class»&lt;br&gt;&lt;b&gt;​PooledByteBufAllocator&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="280" width="160" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
