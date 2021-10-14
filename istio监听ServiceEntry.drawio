@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" modified="2021-10-14T09:47:34.742Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="F9pX5Vu5MZ_PiqkS-Wz7" version="15.5.1" type="github">
+  <diagram id="HJjZa8grBo3YLVdh_Uyv" name="Page-1">
+    <mxGraphModel dx="1232" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kIKJPKo65riQWuANHVwu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="kIKJPKo65riQWuANHVwu-1" target="kIKJPKo65riQWuANHVwu-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kIKJPKo65riQWuANHVwu-12" value="下发变更" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kIKJPKo65riQWuANHVwu-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
+            <mxPoint x="34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kIKJPKo65riQWuANHVwu-1" value="注册中心（Zookeeper）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="80" y="40" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kIKJPKo65riQWuANHVwu-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="kIKJPKo65riQWuANHVwu-2" target="kIKJPKo65riQWuANHVwu-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kIKJPKo65riQWuANHVwu-2" value="适配器（client-go类库）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
+          <mxGeometry x="80" y="160" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kIKJPKo65riQWuANHVwu-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kIKJPKo65riQWuANHVwu-4" target="kIKJPKo65riQWuANHVwu-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BBUOqrt1T-JR37r_WXsG-1" value="监听配置变更" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kIKJPKo65riQWuANHVwu-8">
+          <mxGeometry x="-0.0889" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kIKJPKo65riQWuANHVwu-4" value="kube-apiserver" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
+          <mxGeometry x="80" y="290" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kIKJPKo65riQWuANHVwu-6" value="ServiceEntry" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="170" y="250" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BBUOqrt1T-JR37r_WXsG-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kIKJPKo65riQWuANHVwu-7" target="BBUOqrt1T-JR37r_WXsG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BBUOqrt1T-JR37r_WXsG-4" value="PushRequest" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BBUOqrt1T-JR37r_WXsG-3">
+          <mxGeometry x="-0.075" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kIKJPKo65riQWuANHVwu-7" value="Istiod（KubeConfigController）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
+          <mxGeometry x="400" y="290" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kIKJPKo65riQWuANHVwu-9" value="数据面（Envoy）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
+          <mxGeometry x="397.5" y="530" width="225" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kIKJPKo65riQWuANHVwu-11" value="xDS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="520" y="490" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BBUOqrt1T-JR37r_WXsG-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BBUOqrt1T-JR37r_WXsG-2" target="kIKJPKo65riQWuANHVwu-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BBUOqrt1T-JR37r_WXsG-2" value="Istiod（XDSServer）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="400" y="420" width="220" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
